@@ -143,7 +143,9 @@
       </div>
     </div>
     <div class="footer__bottom container">
-      <a class="footer__logo"><img src="@/assets/images/logo.svg" alt="logo" width="142" height="32"></a>
+      <a class="footer__logo">
+        <img src="@/assets/images/logo.svg" alt="logo" width="142" height="32">
+      </a>
       <div class="footer__copyright"><p>© 2077 Untitled UI. All rights reserved.</p></div>
     </div>
   </footer>
