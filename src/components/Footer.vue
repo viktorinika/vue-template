@@ -143,13 +143,16 @@
       </div>
     </div>
     <div class="footer__bottom container">
-      <a class="footer__logo">
-        <img src="@/assets/images/logo.svg" alt="logo" width="142" height="32">
-      </a>
+      <logo class="footer__logo" />
+
       <div class="footer__copyright"><p>© 2077 Untitled UI. All rights reserved.</p></div>
     </div>
   </footer>
 </template>
+
+<script setup>
+import Logo from "@/components/Header/Logo.vue";
+</script>
 
 <style lang="scss">
 @import '@/styles/blocks/footer';
