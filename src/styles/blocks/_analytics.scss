@@ -1,0 +1,12 @@
+.analytics {
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 32px;
+    row-gap: var(--row-gap-y);
+  }
+}
+
+

@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button {
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+option,
+select {
+  cursor: pointer;
+}
+input,
+textarea {
+  width: 100%;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+  -webkit-appearance: none ;
+  -moz-appearance: none;
+  appearance: none;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* приводе до єдиного сольору svg іконки */
+svg *[stroke] {stroke: currentColor};
+svg *[fill] {fill: currentColor};
+
+svg * {
+  transition-property: fill, stroke;
+}
+
+* {
+  user-select: none;
+}

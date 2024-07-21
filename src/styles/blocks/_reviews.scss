@@ -1,0 +1,44 @@
+.reviews {
+  background-color: var(--color-bg-gray);
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--section-padding-y);
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: center;
+  &__logo-company {
+    & img {
+      max-width: 100%;
+    }
+  }
+  &__quote {
+  @include fluid-text(48, 30);
+    max-width: 1200px;
+    font-weight: 500;
+    color: var(--color-dark);
+    line-height: 1.22;
+    letter-spacing: -2%;
+    text-align: center;
+    @include tablet {
+      padding: 0 20px;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    align-items: center;
+  }
+  &__avatar {
+    @include square(64px);
+    border-radius: 50%;
+    overflow: hidden;
+    &__img {
+      max-width: 100%;
+    }
+  }
+  &__name {
+    font-size: 18px;
+    color: var(--color-dark);
+  }
+}

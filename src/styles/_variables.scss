@@ -1,0 +1,31 @@
+:root {
+  --color-dark: #101828;
+  --color-light: #ffffff;
+  --color-accent: #6941C6;
+  --color-gray: #667085;
+  --color-bg-gray: #F9FAFB;
+  --color-dark-gray: #344054;
+  --color-light-accent: #9E77ED;
+  --color-border-gray: #D0D5DD;
+  --color-bg-accent: #F9F5FF;
+  --color-bg-round-accent: #F4EBFF;
+  --coior-footer-title: #98A2B3;
+  --color-grin: #027A48;
+  --color-bg-grin:#ECFDF3;
+
+
+  --shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  --border: 1px solid var(--color-bg-accent);
+
+  --border-radius: 8px;
+  --button-hight: 60px;
+
+  --font-family-base: 'Inter', sans-serif;
+
+  --container-width: 1216px;
+  --container-padding-x: 20px;
+  --section-padding-y: clamp(4rem, 3.286rem + 3.57vw, 6rem);
+  --row-gap-y: clamp(2rem, 1.286rem + 3.57vw, 4rem);
+
+  --transition-duration: 0.3s;
+}
