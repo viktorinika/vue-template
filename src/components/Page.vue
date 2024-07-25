@@ -347,6 +347,7 @@
 </template>
 
 <style lang="scss">
+@import '@/styles/blocks/section';
 @import '@/styles/blocks/hero';
 @import '@/styles/blocks/analytics';
 @import '@/styles/blocks/reviews';
