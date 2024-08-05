@@ -1,9 +1,3 @@
-<script setup>
-import Page from "@/components/Page.vue";
-import FooterComponent from "@/components/Footer.vue";
-import HeaderComponent from "@/components/Header/Header.vue";
-</script>
-
 <template>
   <div class="wrapper">
     <header-component />
@@ -11,3 +5,9 @@ import HeaderComponent from "@/components/Header/Header.vue";
     <footer-component />
   </div>
 </template>
+
+<script setup>
+import HeaderComponent from "@/components/Header/Header.vue";
+import Page from "@/components/Page.vue";
+import FooterComponent from "@/components/Footer.vue";
+</script>
